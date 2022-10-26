@@ -1,0 +1,119 @@
+.Main-group{
+       position: relative;
+        width: 366px;
+        height: 472px;
+       /* left: 99px; */
+        top: 132px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+}
+.Sub-main{
+       position: relative;
+        width: 366px;
+        height: 458px;
+       /* left: 99px; */
+        top: 132px;
+}
+.Rectangle{
+       position: absolute;
+        width: 366px;
+        height: 307px;
+       left: 1px;
+        top: 6px;
+        border-radius: 10px 10px 0px 0px;
+}
+.Description{
+       position: absolute;
+        width: 330px;
+        height: 79px;
+       left: 18px;
+        top: 300px;
+}
+.Product-name{
+    position: relative;
+        width: 253px;
+        height: 32px;
+        left: 0px;
+        top: -31px;
+        word-break: break-all;
+        word-wrap: break-word;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 32px;
+        /* identical to box height, or 200% */
+    
+        letter-spacing: 0.1px;
+    
+        color: #000000;
+}
+
+.Star-ratings{
+        position: absolute;
+        width: 106px;
+        height: 18px;
+        left: 0px;
+        top: 62px;
+}
+.Original-price{
+    position: absolute;
+        width: 60px;
+        height: 32px;
+        left: 180px;
+        top: 40px;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 32px;
+        /* identical to box height, or 200% */
+    
+        letter-spacing: 0.1px;
+        text-decoration-line: line-through;
+    
+        color: #444444;
+}
+.New-price{
+    position: absolute;
+        width: 92px;
+        height: 32px;
+        left: 233px;
+        top: 22px;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 200%;
+        /* identical to box height, or 133% */
+    
+        letter-spacing: 0.1px;
+    
+        color: #000000;
+}
+.btn-primary{
+    position: absolute;
+        width: 328px;
+        height: 43px;
+        left: 17px;
+        top: 404px;
+    
+        background: #23A6F0;
+        border-radius: 10px;
+}
+.cart{
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 0px;
+        /* identical to box height, or 160% */
+    
+        letter-spacing: 0.1px;
+    
+        color: #FFFFFF;
+}
+
