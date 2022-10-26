@@ -36,11 +36,12 @@ const RenderApi = () => {
  
     return (
           <>  
+           <ul  >
 {
                productList.map((items)=>{
                 return(
-                    <ul key={items.id} >
-                    <li ><MainView  
+                   
+                    <li key={items.id} ><MainView  
                                   productImage = {items.productImage}
                                   productName = {items.productName}
                                   id = {items.id}
@@ -48,15 +49,14 @@ const RenderApi = () => {
                                   newPrice = {items.newPrice}
                                      />
                                      </li>
-                                     </ul>
+                                   
                 );
                 
                }
                )
 
                 
-}
-
+}  </ul>
      </>       
   )
 }

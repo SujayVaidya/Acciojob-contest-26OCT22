@@ -1,5 +1,5 @@
 h3{
-  position: absolute;
+  position: fixed;
     width: 172px;
     height: 32px;
     left: 89px;
@@ -15,4 +15,7 @@ h3{
     letter-spacing: 0.1px;
   
     color: #000000;
+}
+body{
+  overflow: hidden;
 }

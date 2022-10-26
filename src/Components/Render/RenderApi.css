@@ -1,19 +1,19 @@
 li{
     list-style: none;
-    display: inline;
+   padding-right: 50px;
+    
     
 }
     
 ul{
-    display: inline-grid;
-    flex-direction: column-reverse;
+    display: inline-flex;
+    flex-direction: row;
+    padding-right: 10px;
     
-   
     
     
 }
+
 body{
-    float: left;
-    display: inline;
-    
+    overflow-x: scroll;
 }
