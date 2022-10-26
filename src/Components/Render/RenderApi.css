@@ -1,11 +1,14 @@
 li{
     list-style: none;
+    display: inline;
     
 }
     
 ul{
     display: inline-grid;
     flex-direction: column-reverse;
+    
+   
     
     
 }
